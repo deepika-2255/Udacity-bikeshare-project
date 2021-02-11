@@ -40,7 +40,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
         day_name = ''
     while day_name not in DAY_DATA:
-        day_name = input("\nWhat is the name of the day to filter data? (E.g. Input either 'all' to apply no month filter or monday,                                 .... ,sunday)\n")title()
+        day_name = input("\nWhat is the name of the day to filter data? (E.g. Input either 'all' to apply no month filter or monday,                                 .... ,sunday)\n").title()
         if day_name in DAY_DATA:
            day = day_name
         else:
