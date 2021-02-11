@@ -6,7 +6,7 @@ Divvy is a bicycle sharing system in the City of Chicago and two adjacent suburb
 ## What Software Do I Need?
 To complete this project, the following software requirements apply:
 * You should have Python 3, NumPy, and pandas installed using Anaconda
-* A text editor, like [Sublime](https://www.sublimetext.com/) or [Atom](https://atom.io/).
+* A text editor, like Visual studio code, [Sublime](https://www.sublimetext.com/) or [Atom](https://atom.io/).
 * A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
 # Project Details: Bike Share Data
@@ -23,7 +23,7 @@ In this project, I will use data provided by [Motivate](https://www.motivateco.c
     * Trip Duration (in seconds - e.g., 776)
     * Start Station (e.g., Broadway & Barry Ave)
     * End Station (e.g., Sedgwick St & North Ave)
-    * User Type (Subscriber or Customer)
+    * User Type (Subscribers or Customers)
 * The Chicago and New York City files also have the following two columns:
     * Gender
     * Birth Year
